@@ -1,34 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="Content-Type" content="text/html; charset=UTF-8" />
-<title>Yura Kolt >> Experienced LAMP-developer PHP / MySQL / JavaScript / JQuery / Kohana</title>
+<title>Yura Kolt: Experienced LAMP-developer Ruby on Rails / PHP / MySQL / JavaScript / JQuery</title>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<!-- <link rel="stylesheet" type="text/css" media="all" href="css/style.css" /> -->
+<link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css' />
+<link href="http://fonts.googleapis.com/css?family=Holtwood+One+SC" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/style_common.css" />
+<link rel="stylesheet" type="text/css" href="css/style3.css" />
 <style type="text/css" media="screen">
-	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-	    background:none repeat scroll 0 0 transparent;
-	    border:0 none;
-	    font-size:100%;
-	    margin:0;
-	    outline:0 none;
-	    padding:0;
-	    vertical-align:baseline;
-	}
-	body {
-			font-family:Verdana, serif; background-color:#FBEFF5;
-	}
-	
-  h1, h2, h3, h4, #odesk a { font-weight:normal; color:#fff; margin:1px; line-height:35px; }
-	h1 { font-size:35px; margin:5px; }
-	h2 { font-size:27px; }
-	h3 { font-size:15px; }
-	h4 { font-size:12px; line-height:15px; }
-	h1 span, h2 span, h3 span, h4 span, #odesk a { background-color:#333; display:inline-block; padding:7px 25px; }
-	
-	#header { background-color:#333; border-bottom:8px solid #330099; padding:5px 0px 5px 150px; height:auto; }
-	#content { margin:50px 0px 20px 150px; }
-	#odesk { font-size:35px; }
+	body { font-family: Tahoma, serif; background: url(images/noise_gradient.jpg) no-repeat scroll left top #eee; color:#333; font-size:14px; }
+	#header { width:100%; font-size:25px; font-family:'Holtwood One SC', Verdana, serif; z-index:10; }
+	#header .span_h1_red { display:inline-block; margin:120px 0 0 160px; font-size:30px; color:#ff0000; }
+	#header .span_h1 { display:inline; color:#000; }
+	#header .span_h2 { display:block; padding:5px 5px 5px 160px; font-size:15px; color:#fff; background:#ff0000; width:735px; }
+	#header_img { position:absolute; left:20px; top:-30px; z-index:100; }
+	#content { width:735px; margin:20px 0 0 140px; font-size:17px; line-height:35px; }
+	.red { font-weight:bold; }
+	.indent5 { clear:both; height:5px; }
+	a { color:#ff0000; }
 </style>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -46,60 +37,35 @@ _gaq.push(['_trackPageview']);
 </head>
 <body>
 	
-	<script type="text/javascript">
-		$(document).ready(function(){
-			
-			$header = $('#header');
-			$header
-				.animate({opacity:1}, {duration:200})
-				.animate({opacity:0}, {duration:100})
-				.animate({opacity:1}, {duration:10})
-				.animate({opacity:0}, {duration:10})
-				.animate({opacity:1}, {duration:10})
-				.animate({opacity:0}, {duration:50})
-				.animate({opacity:1}, {duration:100})
-				
-			$(".odesk").hoverAttribute({
-				animationTime: 0.1,
-				wrapLength: 55,
-				wrapLink: "middle",
-				removeProtocol: true
-			});
-
-		});
-	</script>
-	
+	<div id="header_img"><img src="images/ninja.png" /></div>
 	<div id="header">
-		<h1>
-			<span>Hello, Dear Potential Customer!</span>
-		</h1>
+		<span class="span_h1_red">Yura Kolt</span>
+		<span class="span_h1">: web-developer</span>
+		<span class="span_h2">Ruby on Rails / PHP / MySQL / JavaScript / JQuery / ...</span>
 	</div>
   
-	<a href="http://github.com/ykolt"><img style="position: absolute; top: 77px; right: 0; border: 0; opacity:0.5;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
+	<a href="http://github.com/ykolt"><img style="position: absolute; top: 0; right: 0; border: 0; opacity: 0.5;" src="https://a248.e.akamai.net/assets.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub"></a>
 	
 	<div id="content">
-		<h2>
-			<span>I am experienced LAMP-developer from Russia</span>
-		</h2>
-		<h3>
-			<span>Looking for interesting and complex projects</span>
-		</h3>
-		<h3>
-			<span>Extensive experience working with frameworks, such as JQuery and Kohana2</span>
-		</h3>
-		<h4>
-			<span>I have experience with Highload and Performance Tuning</span><br />
-			<span>Excellent knowledges SVN/Git/GitHub</span><br />
-			<span>Ability to multitask, troubleshoot and resolve problems</span><br />
-			<span>Experience collaboration skills</span>
-		</h4>
-		<h2>
-			<span>I want to be useful for your ideas and startups</span>
-		</h2>
+		Hello, Dear Potential Customer!<br />
+		I am experienced LAMP-developer from Russia: <span class="red">PHP5</span>, <span class="red">MySQL5</span>, <span class="red">Ruby on Rails 3</span>, <span class="red">JavaScript</span> (native), <span class="red">JQuery</span>, <span class="red">HTML/CSS2</span>.<br />
+		Extensive experience working with Kohana2 framework.<br />		
+		I have experience with Highload and Performance Tuning.<br />
+		Excellent knowledges SVN/Git.<br />
+		Ability to multitask, troubleshoot and resolve problems.<br />
+		Experience collaboration skills.<br />
+		Looking for interesting and complex projects.<br />
+		I want to be useful for your ideas and startups!<br />
+		<div class="indent5"></div>
 		
-		<div id="odesk">
-			<a href="https://www.odesk.com/users/~~c2f09d22d4ab83ab">Hire me on Odesk</a>
+		<div>
+			<p>My oldest and most beloved project >> Proper Cloth | <a href="http://propercloth.com/" target="_blank">http://propercloth.com/</a></p>
+			<img src="images/propercloth.png" />
 		</div>
+		
+		<h3><a href="https://www.odesk.com/users/~~c2f09d22d4ab83ab">Hire me on Odesk</a></h3>
+		
+		<div class="indent5"></div>
 		
   </div>
 
