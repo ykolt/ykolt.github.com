@@ -1,1 +1,1 @@
-Some information here
+Some information here.
